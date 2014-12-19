@@ -1,0 +1,11 @@
+#include "tim1.h"
+
+void Tim1_Init(void)
+{
+    TIM1_ICInit( TIM1_CHANNEL_2, TIM1_ICPOLARITY_RISING, TIM1_ICSELECTION_DIRECTTI,  TIM1_ICPSC_DIV1, 0x00);
+    TIM1_ITConfig(TIM1_IT_CC2, ENABLE);
+    TIM1_ClearFlag(TIM1_FLAG_CC2);
+    TIM1->PSCRH = 0x00;
+    TIM1->PSCRL = 0x80;
+}
+
