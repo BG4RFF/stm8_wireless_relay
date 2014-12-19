@@ -2,7 +2,7 @@
 
 <workspace>
   <project>
-    <path>$WS_DIR$\wireless_decode.ewp</path>
+    <path>$WS_DIR$\wireless_relay.ewp</path>
   </project>
   <batchBuild/>
 </workspace>

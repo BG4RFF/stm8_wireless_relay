@@ -24,7 +24,7 @@
       <file>$PROJ_DIR$\Debug\Obj\eeprom.o</file>
       <file>$PROJ_DIR$\Debug\Obj\stm8s_exti.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\stm8s_gpio.o</file>
-      <file>$PROJ_DIR$\Debug\Exe\wireless_decode.hex</file>
+      <file>$PROJ_DIR$\Debug\Exe\wireless_relay.hex</file>
       <file>$PROJ_DIR$\..\FWlib\inc\stm8s_flash.h</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
       <file>$PROJ_DIR$\Debug\Obj\tim1.o</file>
@@ -47,7 +47,7 @@
       <file>$PROJ_DIR$\Debug\Obj\stm8s_clk.o</file>
       <file>$PROJ_DIR$\Debug\Obj\stm8s_uart1.o</file>
       <file>$PROJ_DIR$\..\USER\key.h</file>
-      <file>$PROJ_DIR$\Debug\Exe\wireless_decode.out</file>
+      <file>$PROJ_DIR$\Debug\Exe\wireless_relay.out</file>
       <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
       <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
       <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
@@ -62,7 +62,7 @@
       <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
       <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\wireless_decode.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\wireless_relay.pbd</file>
       <file>$PROJ_DIR$\..\USER\led.h</file>
       <file>$PROJ_DIR$\Debug\Obj\stm8s_tim1.o</file>
       <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
@@ -406,7 +406,7 @@
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Debug\Exe\wireless_decode.out</name>
+      <name>$PROJ_DIR$\Debug\Exe\wireless_relay.out</name>
       <outputs>
         <tool>
           <name>OBJCOPY</name>

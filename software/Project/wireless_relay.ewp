@@ -481,7 +481,7 @@
         </option>
         <option>
           <name>OOCOutputFile</name>
-          <state>wireless_decode.hex</state>
+          <state>wireless_relay.hex</state>
         </option>
         <option>
           <name>OOCCommandLineProducer</name>
@@ -535,7 +535,7 @@
         </option>
         <option>
           <name>IlinkOutputFile</name>
-          <state>wireless_decode.out</state>
+          <state>wireless_relay.out</state>
         </option>
         <option>
           <name>IlinkDebugInfoEnable</name>
