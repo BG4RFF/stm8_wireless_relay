@@ -154,7 +154,7 @@ INTERRUPT_HANDLER(EXTI_PORTB_IRQHandler, 4)
 
     keytime  = 0;
     keytime1 = 0;
-    while(!GPIO_ReadInputPin(GPIOB,GPIO_PIN_5))
+    while(!GPIO_ReadInputPin(KEY_PORT, KEY_PIN))
     {
         keytime1 ++;
 		
